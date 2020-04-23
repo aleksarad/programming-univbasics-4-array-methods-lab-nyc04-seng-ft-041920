@@ -8,7 +8,7 @@ end
 
 def using_reverse(array)
   newArr = array.reverse
-  array.reverse!
+  return newArr
 end
 
 def using_first(array)
